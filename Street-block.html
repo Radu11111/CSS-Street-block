@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Street Block | CSS</title>
+    <style>
+        body{
+            background-color: #223;
+            margin-left: 450px;
+            margin-top: 150px;
+        }
+        .street{
+            border: 3px solid #6600cc;
+            width: 450px;
+        }
+        .house{
+            height: 150px;
+            width: 100px;
+            display: inline-block;
+            vertical-align: bottom;
+            margin-right: 15px;
+        }
+        .building-tall{
+            display: inline-block;
+            height: 300px;
+            width: 100px;
+            transform: translateY(2px);
+        }
+        .building-roof{
+            border: 50px solid white;
+            border-top-width: 0px;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-block-color: rgba(165, 42, 42, 0.589);
+            border-bottom-width: 80px;
+
+        }
+        .building-wall{
+            background-color: beige;
+            height: 218px;
+        }
+        .building-window-1{
+            width: 30px;
+            height: 30px;
+            border: 2px solid steelblue;
+            transform: translateX(10px) translateY(5px);
+        }
+        .windows-1-section-o{
+            border-bottom: 2px solid steelblue;
+            height: 15px; 
+
+        }
+        .windows-1-section-v{
+            border-left: 2px solid steelblue;
+            height: 30px;
+            transform: translateX(14px) translateY(-17px);
+
+        }
+        .building-window-2{
+             width: 30px;
+            height: 30px;
+            border: 2px solid yellowgreen;
+            transform: translateX(60px) translateY(10px);
+        }
+        .windows-2-section-o{
+            border-bottom: 2px solid yellowgreen;
+            height: 15px; 
+
+        }
+        .windows-2-section-v{
+             border-left: 2px solid yellowgreen;
+            height: 30px;
+            transform: translateX(14px) translateY(-17px);
+
+        }
+
+        .building-window-3{
+            width: 30px;
+            height: 30px;
+            border: 2px solid gray;
+            transform: translateX(10px) translateY(20px);
+        }
+        
+        .windows-3-section-o{
+            border-bottom: 2px solid gray;
+            height: 15px; 
+
+        }
+        .windows-3-section-v{
+             border-left: 2px solid gray;
+            height: 30px;
+            transform: translateX(14px) translateY(-17px);
+
+        }
+        
+        .building-window-4{
+            width: 30px;
+            height: 30px;
+            border: 2px solid goldenrod;
+            transform: translateX(60px) translateY(25px);
+        }
+
+         .windows-4-section-o{
+            border-bottom: 2px solid goldenrod;
+            height: 15px; 
+
+        }
+        .windows-4-section-v{
+             border-left: 2px solid goldenrod;
+            height: 30px;
+            transform: translateX(14px) translateY(-17px);
+
+        }
+        .building-door{
+            border: 2px solid brown;
+            width: 25px;
+            height: 48px;
+            transform: translateX(25px) translateY(30px);
+        }
+        .handle-door{
+            width: 10px;
+            transform: translateX(15px) translateY(20px);
+        }
+        .cloud{
+            display: inline-block;
+            width: 50px;
+            vertical-align: top;
+            padding-left:20px ;
+            padding-top: 20px;
+        }
+        .court{
+            display: inline-block;
+            vertical-align: bottom;
+            line-height:11px;
+        }
+        .house-roof{
+            border: 50px solid white;
+            border-top-width: 0px;
+            border-left-color: transparent;
+            border-right-color: transparent;
+            border-block-color: brown;
+            border-bottom-width: 70px;
+
+        }
+        .house-wall{
+            background-color: antiquewhite;
+            height: 80px;}
+        .house-window{
+            width: 30px;
+            height: 30px;
+            border: 2px solid brown;
+            transform: translateX(33px) translateY(23px);
+        }
+        .window-section-o{
+            border-bottom: 2px solid #223;
+            height: 15px;    
+        }
+        .windows-section-v{
+            border-left: 2px solid #223;
+            height: 30px;
+            transform: translateX(14px) translateY(-17px); 
+        }
+    </style>
+</head>
+<body>
+    <div class="street">
+        <div class="house">
+            <div class="house-roof">
+            </div>
+            <div class="house-wall">
+                <div class="house-window">
+                    <div class="window-section-o"></div>
+                    <div class="windows-section-v"></div>
+                </div>
+            </div>
+        </div>
+        <div class="building-tall">
+            <div class="building-roof">
+            </div>
+            <div class="building-wall">
+                <div class="building-window-1">
+                    <div class="windows-1-section-o"></div>
+                    <div class="windows-1-section-v"></div>
+                </div>
+                <div class="building-window-2">
+                    <div class="windows-2-section-o"></div>
+                    <div class="windows-2-section-v"></div>
+                </div>
+                <div class="building-window-3">
+                    <div class="windows-3-section-o"></div>
+                    <div class="windows-3-section-v"></div>
+                </div>
+                <div class="building-window-4">
+                    <div class="windows-4-section-o"></div>
+                    <div class="windows-4-section-v"></div>
+                </div>
+                <div class="building-door">
+                    <img class="handle-door" src="https://icons.iconarchive.com/icons/fatcow/farm-fresh/24/shape-handles-icon.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="cloud">
+            <img src="https://icons.iconarchive.com/icons/oxygen-icons.org/oxygen/48/Status-weather-clouds-icon.png" alt="">
+        </div>
+        <div class="court">
+            <img src="https://icons.iconarchive.com/icons/icondrawer/gifts/48/rose-icon.png" alt="">
+            <img src="https://icons.iconarchive.com/icons/icondrawer/gifts/48/rose-icon.png" alt="">
+            <img src="https://icons.iconarchive.com/icons/icondrawer/gifts/48/rose-icon.png" alt="">
+        </div>
+    </div>
+</body>
+</html>
